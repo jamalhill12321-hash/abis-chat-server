@@ -1,6 +1,6 @@
 // Replace with your Supabase URL + public key
-const SUPABASE_URL = "YOUR_URL";
-const SUPABASE_KEY = "YOUR_PUBLIC_ANON_KEY";
+const SUPABASE_URL = "https://byfndfwdwhlafsxszfqv.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ5Zm5kZndkd2hsYWZzeHN6ZnF2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjU1NjE4NTIsImV4cCI6MjA4MTEzNzg1Mn0.380cfGejXXnFSqEXL3wOkYN4LCj8YhziZpFzeTKv5xk";
 
 const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
